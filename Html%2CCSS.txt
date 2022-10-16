@@ -1,0 +1,328 @@
+<html lang="en" class="sr translated-ltr"><head>
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>STARBUCKS</title>
+
+<style>
+    *{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto Slab', serif;
+}
+
+/* CSS NAVBAR*/
+
+img.align-self {
+    align-self: center;
+  }
+
+li{
+    list-style: none;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+a{
+    color: white;
+    text-decoration: none;
+}
+.navbar-container img{
+    margin: 20px 20px 20px 150px;
+}
+
+.navbar-container{
+    width: 100%;
+    height: 100px;
+    background-color: black;
+    font-size: 20px;
+    font-weight: bold;
+    display: flex;
+    flex-direction: row;
+    gap: 700px;   
+}
+#Logo{
+    height:65px;
+    width: 65px;
+}
+.navbar-container ul{
+    display: inline-flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+
+}
+
+.navbar-container ul li a:hover{
+    border-bottom: 5px solid green;
+    color: green;
+}
+
+
+.navbar-container img{
+    width: 60px;
+} 
+
+/* CSS BANNER */
+
+.banner{
+    width: 100%;
+    height: 800px;
+    background-color: #204B25;
+    color: white;
+    font-size: 30px;
+    font-weight: bold;
+    
+    display: flex;
+    align-items: center;
+    
+}
+
+.banner img{
+    width: 600px;
+    align-self: center;
+}
+
+.banner-presentation{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 40px;
+}
+#Heading{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+
+
+.banner-button{
+    display: flex;
+    width: 170px;
+    height: 70px;
+    justify-content: center;
+    align-items: center;
+    background-color: #332525;
+    border-radius: 20px;
+}
+
+.banner-button:hover{
+    background-color: #0C0909;
+}
+
+
+.title{
+    text-align: center;
+    font-size: 30px;
+    margin: 20px;
+}
+.mid-banner{
+    width: 100%;
+    height: 700px;
+    background-color: white;
+    display: inline-flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+
+.card img{
+    width: 300px;
+}
+
+
+.card{
+    background-color: #6A9E62;
+    width: 350px;
+    border-radius: 20px;
+    height: 450px;
+    color: white;
+    font-weight: 800;
+    font-size: 20px;
+    padding-top: 2%;
+}
+
+.card-image{
+    display: flex;
+    justify-content: center;
+
+}
+.card-image1{
+    display:flex;
+    justify-content: center;
+    height:300px;
+    width: 340px;    
+}
+
+.card .card-content{
+    background-color: #204B25;
+    height: 200px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    text-align: center;
+}
+
+.card .card-content h1{
+    margin: 40px;
+    position: relative;
+    top: 20px;
+}
+.us{
+    text-align: center;
+    font-size: 45px;
+}
+.about{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 5%;
+    padding-top: 5%;
+}
+.left-about,.right-about{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    width: 50%;
+}
+.right-about img{
+    width: 90%;
+    height: 500px;
+}
+.left-about{
+    padding: 10px;
+	text-align:justify;
+	font-size:20px;
+	background: rgb(3, 43, 3);
+	border-radius: 20px;
+    margin-left: 5%;
+    color: white;
+}
+.left-about p{
+    width: 90%;
+}
+.footer{
+    background: #293241;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+}
+.ab{
+	color:White;
+	font-size: 20px;
+}
+#social{
+    height: 40px;
+    width: 170px;
+}
+
+</style>
+
+
+    <nav>
+        <div class="navbar-container">
+            <img id="Logo"src="Starbucks_Corporation_Logo_2011.svg.png" alt="logo">
+            <ul>
+                <li><a href="#banner">BEGINNING</a></li>
+                <li><a href="#scrollbanner">STORE</a></li>
+                <li><a href="#about">ABOUT US</a></li>
+                <li><a href="#footer">CONTACT</a></li>
+            </ul>
+        </div>
+    </nav>
+      <section>
+        <div class="banner" id="banner">
+            <img class="headline" src="imagen_2022-04-21_173342361_ccexpress.png" alt="logo">
+            
+            <div class="banner-presentation">
+                <h1>ICED SHAKEN AWAKENING</h1>
+                <p id="Heading">Introducing our new Iced Toasted Vanilla Oatmilk Shaken<br> Espresso with rich, creamy layers and nondairy goodness</p>
+
+                <div class="banner-button">
+                    <a href="#" class="button">SEE MORE</a>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <section class="scrollBanner" id="scrollbanner">
+        <div class="title">
+            <h1>STORE</h1>
+        </div>
+        <div class="mid-banner">
+            <div class="card">
+                <div class="card-image">
+                    <img src= "Starbucks_Lemon_Bar_Frappuccino-1-removebg-preview.png" alt="hy">
+                   
+                </div>
+
+                <div class="card-content">
+                    <h1>Lemon Bar Frappuccino</h1>
+
+                    <p>Lemon Lovers, this is the Frappuccino for you!</p>
+                </div>
+            </div>
+
+            <div class="card">
+                <div class="card-image1">
+                    <img src="double_chocolate_chip_frappuccino.png" alt="hyy">
+                </div>
+
+                <div class="card-content">
+                    <h1>Chocolate Chip Frappuccino</h1>
+
+                    <p>Chocolate Chip, It's Slushy, Creamy and Rich especially made for you!</p>
+                </div>
+            </div>
+
+            <div class="card">
+                <div class="card-image">
+                    <img src="Copycat-Double-Chocolate-Frapp-removebg-preview (1).png" alt="huuu">
+                </div>
+
+                <div class="card-content">
+                    <h1>Oreo Chocolate Frappuccino</h1>
+
+                    <p>Oreo Frappuccino, Blended with Chocolate and Caffeine.</p>
+                </div>
+            </div>
+        </div>
+        </section>
+
+        <section id="about">
+            <h1 class="us">ABOUT US</h1>
+        <div class="about" id="about">
+            <div class="left-about">
+                <p>Starbucks Corporation is an American multinational chain of coffeehouses and roastery reserves headquartered in Seattle, Washington. It is the world's largest coffeehouse chain. When the first Starbucks opened in 1971, our company was a single store in Seattle’s historic Pike Place Market. From just a narrow storefront, Starbucks offered some of the world’s finest fresh-roasted whole bean coffees. It happens millions of times each week a customer receives a drink from a Starbucks barista but each interaction is unique. It’s just a moment in time, just one hand reaching over the counter to present a cup to another outstretched hand. But it’s a connection. At Starbucks, we make sure everything we do honors that connection from our commitment to the finest quality coffee, to the way we engage with our customers and communities to do business responsibly. From Starbucks beginnings as a single store, in every place we’ve been and every place we touch, we’ve tried to make it a little better than we found it.</p>
+            </div>
+            <div class="right-about">
+                <img src="undraw_shopping_app_flsj.png" alt="about">
+            </div>
+        </div>
+    </section>
+
+    <section id="footer">
+        <div class="footer">
+            <div class="left-bottom">
+                <img src="Starbucks_Corporation_Logo_2011.svg.png" alt="" width="70px">
+            </div>
+            <div>
+                <p class="ab"><b>Contact Us : starbucks@gmail.com</b></p><br>
+                <p class="ab"><b>9874321087, 0161-987654</b></p>
+            </div>
+        <div>
+            <div>
+                <h6 class="ab">Follow Us :</h6>
+                <div>
+                    <a href="#"><img src="social.png" id="social"></a>
+                </div>
+            </div>
+        </div>
+    </section>
+</body>
+</html>
